@@ -1,6 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+//import './App.css';
+import Router from "./routes";
 
+/*
 function App() {
   return (
     <div className="App">
@@ -20,6 +22,9 @@ function App() {
       </header>
     </div>
   );
+}*/
+function App() {
+  return <Router />;
 }
 
 export default App;

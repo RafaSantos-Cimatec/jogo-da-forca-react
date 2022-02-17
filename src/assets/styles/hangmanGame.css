@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.hangmanDiv {
+  display: flex;
+  flex-direction: column;
+  background-color: wheat;
+  width: 80%;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(212, 198, 172);
+}
+
+.gameDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0.8rem;
+}
+
+.showWordDiv {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+
+.showWordButton {
+  font-size: 1rem;
+  height: 2rem;
+  background-color: rgb(247, 187, 77);
+  border-color: rgb(247, 187, 77);
+  transition: all 0.5s;
+}
+
+.showWordButton:hover {
+  opacity: 90%;
+  cursor: pointer;
+  background-color: rgb(247, 165, 12);
+  border-radius: 15%;
+}
+
+.showResultDiv {
+  display: flex;
+  justify-content: center;
+}

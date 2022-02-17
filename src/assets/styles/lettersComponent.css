@@ -1,0 +1,9 @@
+.lettersDiv {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15rem;
+}
+
+.letterDiv {
+  margin-right: 0.4rem;
+}

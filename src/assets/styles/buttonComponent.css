@@ -1,0 +1,14 @@
+.button {
+  background-color: rgb(247, 187, 77);
+  margin-top: 0.6rem;
+  border-color: rgb(247, 187, 77);;
+  padding: 0.4rem;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  opacity: 90%;
+  cursor: pointer;
+  background-color: rgb(247, 165, 12);
+  border-radius: 15%;
+}
